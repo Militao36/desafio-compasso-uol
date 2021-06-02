@@ -110,11 +110,13 @@ Abaixo será listado as rotas para acesso da API.
     Date: Tue, 01 Jun 2021 16:55:53 GMT
     Connection: close
 
-    {
-      "uuid": "33da4a5b-501d-4644-88a1-b022632bf98d",
-      "name": "Viçosa",
-      "state": "MG"
-    }
+    [
+      {
+        "uuid": "33da4a5b-501d-4644-88a1-b022632bf98d",
+        "name": "Viçosa",
+        "state": "MG"
+      }
+    ]
 
 
 
@@ -183,17 +185,14 @@ Abaixo será listado as rotas para acesso da API.
     Date: Tue, 01 Jun 2021 17:03:30 GMT
     Connection: close
 
-    {
-      "uuid": "e44036f3-7683-4a1c-9ecf-a3f16ca651fa",
-      "name": "Matheus M. Militão",
-      "birthDate": "1999-07-21T03:00:00.000Z",
-      "cityId": "33da4a5b-501d-4644-88a1-b022632bf98d",
-      "city": {
-        "uuid": "33da4a5b-501d-4644-88a1-b022632bf98d",
-        "name": "Viçosa",
-        "state": "MG"
+    [
+      {
+        "uuid": "e44036f3-7683-4a1c-9ecf-a3f16ca651fa",
+        "name": "Matheus M. Militão",
+        "birthDate": "1999-07-21T03:00:00.000Z",
+        "cityId": "33da4a5b-501d-4644-88a1-b022632bf98d"
       }
-    }
+    ]
 --------------------------------------------------------------------------------
 **GET /customers/:uuid**
 
@@ -213,12 +212,7 @@ Abaixo será listado as rotas para acesso da API.
       "uuid": "e44036f3-7683-4a1c-9ecf-a3f16ca651fa",
       "name": "Matheus M. Militão",
       "birthDate": "1999-07-21T03:00:00.000Z",
-      "cityId": "33da4a5b-501d-4644-88a1-b022632bf98d",
-      "city": {
-        "uuid": "33da4a5b-501d-4644-88a1-b022632bf98d",
-        "name": "Viçosa",
-        "state": "MG"
-      }
+      "cityId": "33da4a5b-501d-4644-88a1-b022632bf98d"
     }
     
 --------------------------------------------------------------------------------
