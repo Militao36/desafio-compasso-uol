@@ -1,0 +1,31 @@
+# Rotas para testar api de cliente
+
+POST http://localhost:3000/customers
+Content-Type: application/json
+
+{
+  "name":"Carla Joaquina",
+  "gender":"M",
+  "birthDate":"1999-12-31",
+  "cityId":"1d0dabcc-5c76-4e38-b9fe-e63785fabf7b"
+}
+
+### 
+
+PATCH   http://localhost:3000/customers/3805c24a-fbbd-40c4-b21d-8ced80ffb3e8
+Content-Type: application/json
+
+{
+  "name":"Carla"
+}
+
+### 
+GET http://localhost:3000/customers/name/Carla
+
+### 
+GET http://localhost:3000/customers/3805c24a-fbbd-40c4-b21d-8ced80ffb3e8
+
+### 
+DELETE  http://localhost:3000/customers/3805c24a-fbbd-40c4-b21d-8ced80ffb3e8
+
+

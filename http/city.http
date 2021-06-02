@@ -1,0 +1,15 @@
+# Rotas para testar api de cidade
+
+POST http://localhost:3000/citys
+Content-Type: application/json
+
+{
+  "name":"Cajuri",
+  "state":"MG"
+}
+
+### 
+GET http://localhost:3000/citys/name/Vicosa
+
+### 
+GET http://localhost:3000/citys/state/MG
