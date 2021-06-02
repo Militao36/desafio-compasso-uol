@@ -34,8 +34,8 @@ describe('City Service ', () => {
   })
 
   test('find customer by name', async () => {
-    const data = await customerService.findByName(customer.name)
-    expect(data.length > 0).toBe(true)
+    const customers = await customerService.findByName(customer.name)
+    expect(Array.isArray(customers)).toBeInstanceOf(true)
   })
 
   test('find customer by id', async () => {

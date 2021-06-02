@@ -26,7 +26,7 @@ describe('City Service ', () => {
 
   test('find city by state', async () => {
     const citys = await cityService.findByState(city.state)
-    expect(citys.length > 0).toBe(true)
+    expect(Array.isArray(citys)).toBe(true)
   })
 
   test('failed save city, already exists', async () => {
