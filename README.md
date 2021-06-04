@@ -6,7 +6,7 @@ Pegue o arquivo `.env.example` como exemplo para criar o .env, e adicione os val
 Após criar a várivel de ambiente, instale as dependências.
 
 #### Executar migrations
-Rode o script **npm run migration:run** para criar o banco de dados.
+Rode o script **npm run migration:run** para criar as tabelas no banco de dados.
 OBS: Lembrando que deve criar um banco de dados, com o mesmo nome que adicionou no `.env`.
 
 
