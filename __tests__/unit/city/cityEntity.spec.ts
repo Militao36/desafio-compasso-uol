@@ -4,7 +4,7 @@ describe('City Entity ', () => {
   test('city ​​entity test', () => {
     const city = { name: 'Viçosa', state: 'MG' }
     const cityEntity = new CityEntity(city)
-    expect(cityEntity.city).toMatchObject(cityEntity.city)
+    expect(cityEntity.city).toMatchObject(city)
   })
 
   test('city ​​entity test in error', () => {

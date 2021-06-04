@@ -10,7 +10,7 @@ describe('Customer Entity ', () => {
       cityId: v4()
     }
     const customerEntity = new CustomerEntity(customer)
-    expect(customerEntity.customer).toMatchObject(customerEntity.customer)
+    expect(customerEntity.customer).toMatchObject(customer)
   })
 
   test('Customer ​​entity test in error', () => {
